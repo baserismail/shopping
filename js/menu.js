@@ -5,15 +5,9 @@
  */
 let menuElement=document.getElementById('menu');
 let menuButton=document.getElementById('menu-btn');
+
 menuButton.addEventListener('click',function(){
-    console.log(menuElement.style.display);
-    if(menuElement.style.display=='block')
-    {
-        menuElement.style.display='none';
-    }
-    else
-    {
-        menuElement.style.display='block';
-        // 
-    }
+    
+    menuElement.classList.toggle('hidden');
+    
 })

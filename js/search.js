@@ -8,17 +8,12 @@
 var searchbar = document.getElementsByClassName("px-6 w-full relative text-gray-600")[0];
 searchbar.setAttribute("class","px-6 w-full relative text-gray-600 hidden");
 
-//console.log(searchbar);
-
 var searchbtn = document.getElementsByClassName("search-btn pl-3 inline-block no-underline hover:text-black")[0];
-
 
 searchbtn.addEventListener("click", myFunction);
 
 function myFunction(){
     searchbar.classList.toggle('hidden');
-   
-
 }
 
 searchbtn.href = "#search"

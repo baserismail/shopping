@@ -15,6 +15,7 @@ var mySwiper = new Swiper('.swiper-container', {
   pagination: {
     el: '.swiper-pagination',
   },
+
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
@@ -26,10 +27,6 @@ mySwiper.slideNext();
 
 
 document.addEventListener('DOMContentLoaded', function() {
- // console.log('DOM ready');
   document.querySelector(".swiper-button-next").style.color="#718096";
   document.querySelector(".swiper-button-prev").style.color="#718096";
-  //document.querySelector(".swiper-pagination-bullet-active").style.color="#718096";
-
-  
 });
